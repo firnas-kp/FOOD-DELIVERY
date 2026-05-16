@@ -1,0 +1,94 @@
+.list-legend {
+    font-size: 12px;
+    color: #888;
+    max-width: 720px;
+    margin: -8px 0 8px;
+}
+.list-table-format {
+    display: grid;
+    grid-template-columns: 0.45fr 1.25fr 0.8fr 0.6fr 0.55fr 0.45fr 0.95fr 0.8fr 0.45fr;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+.list-stock-btn {
+    border: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+.list-stock-btn.in {
+    background: #2e7d32;
+}
+.list-stock-btn.out {
+    background: #c62828;
+}
+.list-edit-btn {
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    padding: 6px 8px;
+    background: #fff;
+    cursor: pointer;
+}
+.list-table-format.title {
+    background-color: #f9f9f9;
+}
+.list-table-format img {
+    width: 50px;
+}
+@media (max-width: 900px) {
+    .list-table {
+        overflow-x: auto;
+    }
+    .list-table-format {
+        min-width: 820px;
+    }
+}
+.list-edit-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.5);
+    display: grid;
+    place-items: center;
+    z-index: 90;
+}
+.list-edit-modal {
+    width: min(540px, 92vw);
+    background: #fff;
+    border-radius: 14px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list-edit-modal input,
+.list-edit-modal select,
+.list-edit-modal textarea {
+    border: 1px solid #d0d5dd;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+.list-edit-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+.list-edit-actions button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #e23744;
+    color: #fff;
+    font-weight: 600;
+}
+.list-edit-actions .muted {
+    background: #f2f4f7;
+    color: #344054;
+}

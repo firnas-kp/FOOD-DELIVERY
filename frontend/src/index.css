@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
+
+:root {
+    --z-red: #e23744;
+    --z-red-dark: #c21e2b;
+    --z-ink: #1c1c1c;
+    --z-muted: #696969;
+    --z-bg: #f8f8f8;
+    --z-card: #ffffff;
+    --z-border: #e8e8e8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--z-bg);
+    color: var(--z-ink);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app {
+    width: min(1200px, 92%);
+    margin: auto;
+}
+
+.app--auth-locked {
+    min-height: 100vh;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.dark-mode {
+    --z-bg: #0f0f0f;
+    --z-ink: #f3f3f3;
+    --z-muted: #b5b5b5;
+    --z-card: #1a1a1a;
+    --z-border: #2a2a2a;
+}
+
+.dark-mode body {
+    background: var(--z-bg);
+    color: var(--z-ink);
+}

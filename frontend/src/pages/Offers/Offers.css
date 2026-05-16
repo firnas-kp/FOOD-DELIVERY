@@ -1,0 +1,32 @@
+.offers {
+  padding: 40px;
+  text-align: center;
+}
+
+.offers-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.offer-card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.offer-card h3 {
+  color: #ff4d4d;
+}
+
+.offer-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

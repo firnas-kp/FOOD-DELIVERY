@@ -1,0 +1,18 @@
+.team-page { padding: 28px; width: 100%; }
+.team-header h1 { color: #17243a; margin-bottom: 6px; }
+.team-header p { color: #667085; margin-bottom: 14px; font-size: 14px; }
+.team-table-wrap { background: #fff; border: 1px solid #eaecf0; border-radius: 14px; overflow-x: auto; }
+.team-table { width: 100%; border-collapse: collapse; }
+.team-table th, .team-table td { border-bottom: 1px solid #f2f4f7; padding: 12px; font-size: 13px; text-align: left; }
+.team-table th { color: #667085; font-weight: 600; }
+.team-table td { color: #344054; }
+.role-pill, .status-pill { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.role-pill.super { background: #ecf3ff; color: #155eef; }
+.status-pill.active { background: #ecfdf3; color: #067647; }
+.status-pill.locked { background: #fef3f2; color: #b42318; }
+.role-select { padding: 6px 8px; border: 1px solid #d0d5dd; border-radius: 8px; }
+.lock-btn { border: none; border-radius: 8px; padding: 7px 10px; color: #fff; cursor: pointer; }
+.lock-btn.lock { background: #b42318; }
+.lock-btn.unlock { background: #067647; }
+.muted { color: #98a2b3; font-size: 12px; }
+@media (max-width: 700px) { .team-page { padding: 16px; } }

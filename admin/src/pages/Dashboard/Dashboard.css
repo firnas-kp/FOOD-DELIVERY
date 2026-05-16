@@ -1,0 +1,38 @@
+.dashboard-page {
+  padding: 28px;
+  width: 100%;
+  background: radial-gradient(circle at top left, #f3ecff 0%, #f8fafc 38%, #eef9ff 100%);
+}
+.dashboard-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 12px; }
+.dashboard-header h1 { color: #17243a; font-size: 28px; margin-bottom: 4px; }
+.dashboard-header p { color: #667085; font-size: 14px; }
+.dashboard-header button { border: 1px solid #d0d5dd; background: #fff; border-radius: 10px; padding: 10px 14px; cursor: pointer; }
+.dashboard-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 22px; }
+.kpi-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
+  border: 1px solid #eaecf0;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+}
+.dashboard-kpis .kpi-card:nth-child(1) { background: linear-gradient(135deg, #ecf3ff 0%, #f7fbff 100%); }
+.dashboard-kpis .kpi-card:nth-child(2) { background: linear-gradient(135deg, #fff4ed 0%, #fffaf5 100%); }
+.dashboard-kpis .kpi-card:nth-child(3) { background: linear-gradient(135deg, #ecfdf3 0%, #f7fff9 100%); }
+.dashboard-kpis .kpi-card:nth-child(4) { background: linear-gradient(135deg, #f4f3ff 0%, #faf8ff 100%); }
+.dashboard-kpis .kpi-card:nth-child(5) { background: linear-gradient(135deg, #eff8ff 0%, #f8fcff 100%); }
+.dashboard-kpis .kpi-card:nth-child(7) { background: linear-gradient(135deg, #f8f9fc 0%, #ffffff 100%); }
+.kpi-card h3 { color: #667085; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+.kpi-card p { color: #101828; font-size: 24px; font-weight: 700; }
+.kpi-card.warn { border-color: #fdb022; background: linear-gradient(135deg, #fff7e8 0%, #fffaef 100%); }
+.dashboard-panel { background: #fff; border: 1px solid #eaecf0; border-radius: 14px; padding: 14px; }
+.dashboard-panel h2 { font-size: 18px; color: #17243a; margin-bottom: 10px; }
+.dashboard-table-wrap { overflow-x: auto; }
+.dashboard-table { width: 100%; border-collapse: collapse; }
+.dashboard-table th, .dashboard-table td { text-align: left; border-bottom: 1px solid #f2f4f7; padding: 10px; font-size: 13px; }
+.dashboard-table th { color: #667085; font-weight: 600; }
+.dashboard-table td { color: #344054; }
+.empty { color: #667085; font-size: 14px; }
+@media (max-width: 700px) {
+  .dashboard-page { padding: 16px; }
+  .dashboard-header { flex-direction: column; align-items: flex-start; }
+}

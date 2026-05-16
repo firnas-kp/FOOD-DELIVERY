@@ -1,0 +1,52 @@
+.invite-page {
+    width: min(480px, 90%);
+    margin: 40px max(5vw, 25px);
+    color: #5a5a5a;
+}
+
+.invite-page h1 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.invite-sub {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.invite-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.invite-form input,
+.invite-form select {
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.invite-label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+}
+
+.invite-form button {
+    margin-top: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background: tomato;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    max-width: 200px;
+}

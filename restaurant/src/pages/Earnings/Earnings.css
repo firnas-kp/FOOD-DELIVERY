@@ -1,0 +1,62 @@
+.earn-page {
+    padding: 28px;
+    width: 100%;
+}
+.earn-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.earn-header h1 {
+    font-size: 26px;
+    color: #17243a;
+    margin-bottom: 4px;
+}
+.earn-header p {
+    color: #667085;
+    font-size: 14px;
+    max-width: 640px;
+}
+.earn-header button {
+    border: 1px solid #d0d5dd;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.earn-panel {
+    background: #fff;
+    border: 1px solid #eaecf0;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.earn-panel h2 {
+    font-size: 17px;
+    color: #17243a;
+    margin-bottom: 12px;
+}
+.earn-table-wrap {
+    overflow-x: auto;
+}
+.earn-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.earn-table th,
+.earn-table td {
+    text-align: left;
+    border-bottom: 1px solid #f2f4f7;
+    padding: 10px;
+    font-size: 14px;
+}
+.earn-table th {
+    color: #667085;
+    font-weight: 600;
+}
+.earn-empty {
+    color: #667085;
+    font-size: 14px;
+}

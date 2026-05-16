@@ -1,0 +1,80 @@
+.order-page {
+    width: 100%;
+    padding: 28px;
+}
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+.order-header h2 {
+    font-size: 24px;
+    color: #17243a;
+    margin-bottom: 4px;
+}
+.order-header p {
+    color: #667085;
+    font-size: 14px;
+}
+.order-header button {
+    border: 1px solid #d0d5dd;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.order-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+.order-filters input,
+.order-filters select {
+    border: 1px solid #d0d5dd;
+    border-radius: 10px;
+    padding: 10px 12px;
+    background: #fff;
+}
+.order-filters input {
+    width: min(420px, 100%);
+}
+.order-item {
+    display: grid;
+    grid-template-columns: 0.45fr 2fr 0.8fr 0.6fr 1fr;
+    align-items: start;
+    gap: 20px;
+    border: 1px solid #eaecf0;
+    border-radius: 14px;
+    background: #fff;
+    padding: 16px;
+    margin: 12px 0;
+    font-size: 13px;
+    color: #475467;
+}
+.order-item-food,
+.order-item-name {
+    font-weight: 600;
+    color: #1d2939;
+}
+.order-item-name {
+    margin-top: 6px;
+}
+.order-item-address {
+    margin-top: 6px;
+    color: #667085;
+}
+.order-item-phone {
+    margin-top: 6px;
+    font-weight: 500;
+}
+.order-item img {
+    width: 44px;
+}
+.order-item select {
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    padding: 8px;
+    background: #fff;
+}
